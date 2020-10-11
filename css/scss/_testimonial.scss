@@ -1,0 +1,72 @@
+.testimonial{
+  padding: 2rem 0;
+  background-color: rgb(237, 241, 243);
+}
+.swiper-container {
+  width: 90%;
+  margin: auto;
+  height: 100%;
+}
+.swiper-slide {
+    overflow: visible;
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+.item-test {
+    background-color: rgb(253, 253, 253);
+    padding: 1rem;
+  text-align: left;
+  display: grid;
+  grid-template-columns: 150px 300px;
+  .items img {
+      margin-top: -0.2rem;
+      margin-left: 2rem;
+    float: left;
+  }
+  .items p{
+      margin-top: 0.5rem;
+  }
+  .items:nth-child(1) {
+    width: 60% !important;
+  }
+  & .names{
+      width: 100%;
+      margin-left: 9rem;
+  }
+}
+.swiper-container-horizontal>.swiper-pagination-bullets, .swiper-pagination-custom, .swiper-pagination-fraction {
+    bottom: -2rem !important;
+    left: 0;
+    width: 100%;
+    overflow: visible !important;
+    z-index: 99999999999999 !important;
+    padding: 1rem 0 3rem 0;
+}
+.swiper-container {
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    overflow: visible !important;
+    list-style: none;
+    padding: 0;
+    z-index: -1;
+}
+.test-min{
+    padding: 1rem 0;
+    overflow: hidden !important;
+}

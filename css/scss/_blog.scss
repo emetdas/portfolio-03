@@ -1,0 +1,30 @@
+.blog{
+    padding:5rem 0;
+}
+.blog-items {
+  width: 90%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-column-gap: 2rem;
+}
+.blog-item {
+  span {
+    color: rgb(165, 165, 165);
+  }
+  h5{
+      font-size: 1.4rem;
+      font-weight: bold;
+      padding: 0.5rem 0;
+      text-align: justify;
+  }
+  p {
+    padding: 0.5rem 0;
+    color: rgb(165, 165, 165);
+  }
+  a {
+    padding-bottom: 0.2rem;
+    color: orange;
+    border-bottom: 0.2rem solid orange;
+  }
+}

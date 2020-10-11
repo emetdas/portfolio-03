@@ -1,0 +1,19 @@
+.footer{
+    padding: 2rem 0;
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    .footer-header h1{
+        text-transform: uppercase;
+        font-size: 2.5rem;
+        padding: 1rem 0 0.5rem 0;
+    }
+    .socil-icon i{
+        padding: 1rem;
+        cursor: pointer;
+    }
+    p{
+        margin-top: 3rem;
+        color: rgb(228, 228, 228);
+    }
+}

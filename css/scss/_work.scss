@@ -1,0 +1,71 @@
+.work{
+  padding: 2rem 0;
+  background-color: rgb(237, 241, 243);
+}
+.mixt {
+    width: 100%;
+  }
+  .wor {
+    text-align: center;
+    margin: 1rem 0;
+    padding: 1rem 0 0 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .wor {
+    width: 95%;
+    margin: auto;
+  }
+  .wor .filter {
+    margin: 1rem 1rem;
+    background-color: transparent;
+    font-family: "El Messiri", sans-serif;
+    cursor: pointer;
+    color: #3f3f3f;
+    border: none;
+    font-weight: 600;
+    font-size: 1rem;
+    outline: none;
+    padding: 0.3rem 0;
+  }
+  .filter:focus{
+    color: orange;
+    border-bottom: 0.2rem solid orange;
+    background-position: right;
+  }
+  #fil .mix {
+    width: 300px;
+    height: 300px;
+    margin: 0.5rem 0.5rem;
+    display: none;
+    position: relative;
+  }
+  .mix img {
+    width: 100%;
+    height: 100%;
+  }
+  // touch
+  .touch{
+    color: #fff;
+    width: 100%;
+    padding: 1rem 0;
+    background-color: #202020;
+    .touch-contant{
+      width: 90%;
+      margin: auto;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      p{
+        font-size: 1.2rem;
+        font-weight: bold;
+        width: 50%;
+      }
+      a{
+        color: #fff;
+        padding: 0.4rem 1rem;
+        border: 2px solid #fff;
+      }
+    }
+  }
+  

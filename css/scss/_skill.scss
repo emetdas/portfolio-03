@@ -1,0 +1,74 @@
+.skill{
+    padding: 2rem 0;
+    & .skill-items{
+        padding: 2rem 0;
+        width: 70%;
+        margin: auto;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        grid-column-gap: 2rem;
+    }
+    & .skill-header h2{
+        padding: 0.4rem 0;
+        margin-top: 3rem;
+        text-transform: uppercase;
+        position: relative;
+        &::after{
+            content: '';
+            position: absolute;
+            width: 50%;
+            left: 0;
+            bottom: 0;
+            height: 0.2rem;
+            background-color: orange;
+        }
+    }
+    .pro-item{
+        padding-top: 1rem;
+        & h4{
+            font-size: .9rem;
+            margin-bottom: -1rem;
+        }
+    }
+    & .progress-bar .por-bar{
+        margin-top: 1.2rem;
+        // overflow: hidden;
+        height: 0.4rem;  /* Can be anything */
+        position: relative;
+        background: rgb(238, 238, 238);
+        -moz-border-radius: 25px;
+        -webkit-border-radius: 25px;
+        border-radius: 25px;
+        width: 90%;
+        box-shadow: inset 0 -1px 1px rgba(255,255,255,0.3);
+   & span{
+       height: 100%;
+       border-top-left-radius: 5rem;
+       border-bottom-left-radius: 5rem;
+       position: absolute;
+       animation: move 2s linear !important;
+       background-color: orange;
+       box-shadow:         inset 0 2px 9px  rgba(255,255,255,0.3),        inset 0 -2px 6px rgba(0,0,0,0.4);
+       -webkit-animation: move 2s linear !important;
+       & h5{
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-weight: 400;
+        position: absolute;
+        top: -1rem;
+        left: 90%;
+       }
+}
+    }
+    .skill-item img{
+        width: 80%;
+        height: 70%;
+    }
+}
+@keyframes move {
+    0% {
+      width: 0;
+    }
+    100% {
+      position: 100% 100%;
+    }
+  }

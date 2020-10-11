@@ -1,0 +1,44 @@
+.contact {
+  padding: 2rem 0;
+  background-color: rgb(237, 241, 243);
+
+  form {
+    width: 70%;
+    margin: auto;
+    padding: 2rem 2rem 5rem 2rem;
+    background-color: #fff;
+    .form-header {
+      padding: 1rem 0;
+      p {
+        color: rgb(141, 141, 141);
+      }
+    }
+    .input-group {
+      width: 50%;
+      float: left;
+      padding-right: 1rem;
+      input {
+        width: 100%;
+        padding: 0.5rem 1rem;
+      }
+    }
+    textarea{
+        padding:0.3rem 1rem;
+        margin-top: 0.9rem;
+        height: 5rem;
+        width: 98%;
+        margin-right: 1rem;
+    }
+    input[type="submit"]{
+        float: right;
+        margin-right: 1rem;
+        margin-top: 1rem;
+        padding: 0.7rem 1rem;
+        color: #fff;
+        border: none;
+        outline: none;
+        cursor: pointer;
+        background-color: orange;
+    }
+  }
+}

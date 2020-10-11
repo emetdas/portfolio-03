@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,900&display=swap');
+// file import
+
+@import "scss/media_320-480";
+@import "scss/media_700-900";
+@import "scss/media_1024-1366";
+@import "scss/media_1440-1900";
+@import "scss/footer";
+@import "scss/contact";
+@import "scss/blog";
+@import "scss/testimonial";
+@import "scss/work";
+@import "scss/skill";
+@import "scss/service";
+@import "scss/aboutus";
+@import "scss/header";
+// file import-end
+/* basic css reset */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    scroll-behavior: smooth;
+    font-family: 'Poppins', sans-serif;
+}
+ul, ol{
+    list-style-type: none;
+} 
+section::after{
+    content: '';
+    display: table;
+    position: absolute;
+}
+section::before{
+    content: '';
+    display: table;
+    position: absolute;
+}
+a{
+    text-decoration: none;
+}
+.section-header .section-center{
+    width: 25%;
+    margin: auto;
+    text-align: center;
+    padding: 1rem 0 3rem 0;
+    & h1{
+        text-transform: uppercase;
+        font-size: 1.5rem;
+        font-weight: 600;
+        position: relative;
+        &::after{
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 35%;
+            width: 5rem;
+            height: 0.2rem;
+            background-color: orange;
+        }
+    }
+}
+/* basic css reset-end */
